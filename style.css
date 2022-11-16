@@ -302,6 +302,11 @@ footer img{
   filter:  invert(48%) sepia(10%) saturate(3207%) hue-rotate(100deg) brightness(95%) contrast(80%);
 }
 
+.soc-icon:hover{
+  cursor: pointer;
+  filter:  invert(48%) sepia(10%) saturate(3207%) hue-rotate(120deg) brightness(95%) contrast(80%);
+}
+
 @media only screen and (max-width: 700px) {
   .centered {
     font-size: 35px;
