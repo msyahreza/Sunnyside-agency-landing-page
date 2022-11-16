@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
+* {
+  padding: 0px;
+}
+footer{
+  background-color: hsl(168, 69%, 60%);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer img{
+  filter:  invert(48%) sepia(10%) saturate(3207%) hue-rotate(120deg) brightness(95%) contrast(80%);
+}
+
+.body {
+  background-color: rgb(61, 189, 255);
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: rgb(61, 189, 255);
+}
+
+.btn-nav {
+  border: none;
+  border-radius: 600px;
+  background-color: white;
+  font-weight: bold;
+  padding: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.btn-nav:hover {
+  transition: 0.5s ease;
+  color: orange;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item a:hover {
+  color: orange;
+  transition: 0.5s ease;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+
+.main-page {
+  background-image: url("/images/desktop/image-header.jpg");
+  background-color: black;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 4px;
+}
+
+.arrow-down {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.header-img {
+  max-width: 1920px;
+  min-width: 300px;
+  width: 100%;
+}
+
+.page-2-img {
+  max-width: 700px;
+  min-width: 300px;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.sec-1 {
+  color: hsl(212, 27%, 19%);
+  background-color: white;
+}
+
+.sec-1 h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.brand-col {
+  left: 1;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 100px;
+}
+
+.learn-more {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  padding-top: 20px;
+  font-size: 18px;
+  text-decoration: underline yellow;
+  cursor: pointer;
+}
+
+.subtitle {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 18px;
+  padding-top: 20px;
+  position: relative;
+}
+.img-subtitle {
+  position: absolute;
+  z-index: 1;
+  left: 30px;
+  top: 20px;
+}
+
+.img-subtitle-2 {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
+.container-gdph {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: white;
+  padding: 0px 0px 0px 0px;
+}
+
+.sub-col {
+  height: 500px;
+}
+
+.subtitle-left {
+  position: relative;
+  bottom: 40%;
+  text-align: center;
+  color: hsl(167, 40%, 24%);
+}
+
+.subtitle-left h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+.subtitle-right {
+  position: relative;
+  bottom: 40%;
+  text-align: center;
+  color: hsl(198, 62%, 26%);
+}
+.subtitle-right h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+.testimonials-sect {
+  background-color: white;
+  padding-top: 80px;
+}
+
+.testimonials-sect  {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-sect  {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+
+.testimonials-sect2 h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0px 80px 0px 80px;
+}
+
+.testimonials-sect2{
+  background-color: white;
+  
+}
+.position{
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.testimonials {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-align: center;
+  color: hsl(213, 9%, 39%);
+}
+.testimonials-img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 300px;
+}
+
+.testimonials-text{
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: hsl(213, 9%, 39%);
+  padding-top: 20px;
+}
+
+.testimonials-subtitle {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: hsl(212, 27%, 19%);
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.position{
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: hsl(213, 9%, 39%);
+}
+
+.image-gallery{
+  display: flex !important;
+}
+
+.image-gallery > div{
+  flex: 1;
+}
+
+.gallery-img{
+  min-width: 150px;
+  max-width: 400px;
+  width: 100%;
+  display: flex !important;
+}
+
+.gallery-img > div{
+  flex: 1;
+}
+
+.bottom-nav{
+  color: hsl(167, 77%, 28%);
+  text-decoration: none;
+}
+
+.bottom-nav:hover{
+  color: hsl(167, 98%, 35%);
+  text-decoration: none;
+}
+
+.soc-icon{
+  filter:  invert(48%) sepia(10%) saturate(3207%) hue-rotate(100deg) brightness(95%) contrast(80%);
+}
+
+@media only screen and (max-width: 700px) {
+  .centered {
+    font-size: 35px;
+  }
+  .arrow-down {
+    position: absolute;
+    top: 30%;
+    left: 46%;
+  }
+  .sub-col {
+    height: 300px;
+  }
+  .subtitle-left {
+    font-size: 14px;
+    bottom: 70%;
+  }
+  .subtitle-right {
+    font-size: 14px;
+    bottom: 60%;
+  }
+  .testimonials-sect2 h2 {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .testimonials-text {
+    font-size: 14px;
+  }
+
+  .testimonials-subtitle {
+    font-size: 14px;
+  }
+
+  .position {
+    font-size: 14px;
+  }
+
+  .testimonials-img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .image-gallery{
+    display: flex !important;
+  }
+
+  .gallery-img{
+    display: flex !important;
+  }
+}
